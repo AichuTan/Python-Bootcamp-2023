@@ -30,7 +30,10 @@ import random
 game = [rock, paper, scissors]
 random_index = random.randint(0,2)
 computer = game[random_index]
+print("Computer Choose:")
 print(computer)
+print("You Choose:")
+print(game[choose])
 if choose == random_index:
     print("It's a draw")
 elif choose >= 3 or choose < 0:
